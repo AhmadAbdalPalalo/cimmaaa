@@ -3,34 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>why not?</title>
+    <title>ucapan</title>
     <style>
       body {
-        background-color: #d0944a;
-        font-family: Courier;
+        background-color: #006c84;
+        font-family: Arial, sans-serif;
         padding: 20px;
         line-height: 1.8;
       }
 
       h1 {
         text-align: center;
-        font-family: Courier;
-        color: #e2e8e4;
+        color: #ffccbb;
       }
 
       .font-sample {
         padding: 15px;
-        font-family: Courier;
         margin: 15px 0;
         color: #e2e8e4;
       }
 
       .font-sample2 {
-        background: lab(69.37% 16.36 36.39);
+        background: lab(76.32% 9.41 22.11);
         padding: 15px;
         margin: 15px auto;
         border-radius: 10px;
-        box-shadow: 0 2px 6px rgb(38, 77, 161);
+        box-shadow: 0 2px 6px rgb(14, 164, 164);
         text-align: center; /* Supaya semua isi di dalam rata tengah */
         width: 60%;
       }
@@ -41,23 +39,24 @@
         justify-content: center; /* Tombol sejajar di tengah */
         align-items: center;
         gap: 30px; /* Jarak antar tombol */
-        margin-top: 1px;
+        margin-top: 10px;
       }
 
       button {
-        padding: 10px 25px;
-        border: 2px solid #2050ab;
-        border-radius: 25px;
+        padding: 20px 20px;
+        border: 3px solid #006c84;
+        border-radius: 27px;
         background: none;
         font-size: 1rem;
-        font-family: "Courier";
-        color: #2050ab;
+        font-family: "Courier new";
+        /* font-weight: bold; */
+        color: #006c84;
         cursor: pointer;
-        transition: all 0.3s ease;
+        transition: all 0.2s ease;
       }
 
       button:hover {
-        background-color: #2050ab;
+        background-color: #006c84;
         color: #e2e8e4;
       }
 
@@ -69,40 +68,42 @@
       .font-name {
         text-align: center;
         font-weight: bold;
-        color: #e2e8e4;
+        color: #006c84;
         margin-bottom: 5px;
-        font-family: Courier;
+        font-family: "Courier New", monospace;
       }
+      .courier    { font-family: "Courier New", monospace; }
 
-      .comic {
-        font-family: "Comic Sans MS", cursive;
-      }
+      .comic      {font-family: "Comic Sans MS", cursive;}
     </style>
   </head>
-  <body class="font-name">
-    <div class="courier">
-    <h1>plisssss laahhh</h1>
-    <!-- <p>ayolahh mauu sayanggg</p> -->
-    <div class="font-sample2 comic">
-      <div class="font-name">ndda mi pilihan lain.</div>
+
+  <body>
+    <div class="font-sample courier">
+      <div class="font-name">
+        <h1>HAPPY BIRTHDAY SAYANGGKUUHHH</h1>
+        </div>
+    </div>
+
+    <div class="font-sample2 courier">
+      <div class="font-name"><h2>Ayoo pilihh sayanggkuuu</h2></div>
       <div class="buttons">
-      <div class="font-sample">
-          <button onclick="goToYes()">HARUS MAUUU!</button>
+      <div class="font-sample courier">
+      <div clasa= "font-name">
+          <button onclick="goToYes()">akuu pilih ini</button>
         </button>
-        <!-- <button onclick="goToNo()">NGGA YA NGGA</button> -->
+        <button onclick="goToNo()">gamauu akuu</button>
       </div>
       </div>
     </div>
-    </div>
-     
-     <script>
+
+    <script>
       function goToYes() {
-        window.location.href = "hal/ultahh.html";
+        window.location.href = "halaman-yes.html"; // Ganti sesuai halaman tujuanmu
       }
       function goToNo() {
-        window.location.href = "hal/no2.html";
+        window.location.href = "halaman-no.html"; // Ganti sesuai halaman tujuanmu
       }
-      </script>
-
+    </script>
   </body>
 </html>

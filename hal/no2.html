@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>why not?</title>
+    <style>
+      body {
+        background-color: #d0944a;
+        font-family: Courier;
+        padding: 20px;
+        line-height: 1.8;
+      }
+
+      h1 {
+        text-align: center;
+        font-family: Courier;
+        color: #e2e8e4;
+      }
+
+      .font-sample {
+        padding: 15px;
+        font-family: Courier;
+        margin: 15px 0;
+        color: #e2e8e4;
+      }
+
+      .font-sample2 {
+        background: lab(69.37% 16.36 36.39);
+        padding: 15px;
+        margin: 15px auto;
+        border-radius: 10px;
+        box-shadow: 0 2px 6px rgb(38, 77, 161);
+        text-align: center; /* Supaya semua isi di dalam rata tengah */
+        width: 60%;
+      }
+
+      /* Bagian penting untuk memusatkan tombol */
+      .buttons {
+        display: flex;
+        justify-content: center; /* Tombol sejajar di tengah */
+        align-items: center;
+        gap: 30px; /* Jarak antar tombol */
+        margin-top: 1px;
+      }
+
+      button {
+        padding: 10px 25px;
+        border: 2px solid #2050ab;
+        border-radius: 25px;
+        background: none;
+        font-size: 1rem;
+        font-family: "Courier";
+        color: #2050ab;
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+
+      button:hover {
+        background-color: #2050ab;
+        color: #e2e8e4;
+      }
+
+      .image img {
+        width: 80px;
+        border-radius: 10px;
+      }
+
+      .font-name {
+        text-align: center;
+        font-weight: bold;
+        color: #e2e8e4;
+        margin-bottom: 5px;
+        font-family: Courier;
+      }
+
+      .comic {
+        font-family: "Comic Sans MS", cursive;
+      }
+    </style>
+  </head>
+  <body class="font-name">
+    <div class="courier">
+    <h1>plisssss laahhh</h1>
+    <!-- <p>ayolahh mauu sayanggg</p> -->
+    <div class="font-sample2 comic">
+      <div class="font-name">ndda mi pilihan lain.</div>
+      <div class="buttons">
+      <div class="font-sample">
+          <button onclick="goToYes()">HARUS MAUUU!</button>
+        </button>
+        <!-- <button onclick="goToNo()">NGGA YA NGGA</button> -->
+      </div>
+      </div>
+    </div>
+    </div>
+     
+     <script>
+      function goToYes() {
+        window.location.href = "hal/ultahh.html";
+      }
+      function goToNo() {
+        window.location.href = "hal/no2.html";
+      }
+      </script>
+
+  </body>
+</html>
